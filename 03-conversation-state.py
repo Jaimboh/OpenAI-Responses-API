@@ -7,7 +7,7 @@ https://platform.openai.com/docs/guides/conversation-state?api-mode=responses
 """
 
 # --------------------------------------------------------------
-# Manual conversation state
+# Manual conversation state with role specifications
 # --------------------------------------------------------------
 
 response = client.responses.create(
