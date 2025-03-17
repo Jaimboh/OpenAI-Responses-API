@@ -31,17 +31,13 @@
    - **Computer use**: Create agentic workflows that enable a model to control a computer interface
    - **Function calling**: Enable the model to call custom code that you define, giving it access to additional data and capabilities
 
-4. **When to Migrate**:
-   - For new applications: Start with Responses API to be future-proof
-   - For existing applications: Begin planning migration, but no immediate urgency
-   - Test the new API in parallel with existing implementations
 
-5. **Implementation Considerations**:
+4. **Implementation Considerations**:
    - API structure changes but core AI engineering principles remain the same
    - Features that previously required multiple API calls can now be done in single calls
    - The fundamental patterns of retrieval, tools, and memory management still apply
 
-6. **New Agent SDK**: OpenAI has released a new Agent SDK that will replace [Swarm](https://github.com/openai/swarm/tree/main). This provides a standardized way to build AI agents with the Responses API. Learn more at: https://platform.openai.com/docs/guides/agents
+5. **New Agent SDK**: OpenAI has released a new Agent SDK that will replace [Swarm](https://github.com/openai/swarm/tree/main). This provides a standardized way to build AI agents with the Responses API. Learn more at: https://platform.openai.com/docs/guides/agents
 
-7. **Documentation Resources**:
+6. **Documentation Resources**:
    - Official OpenAI documentation: https://platform.openai.com/docs/api-reference/responses
